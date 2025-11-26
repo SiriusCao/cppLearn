@@ -70,17 +70,17 @@ void test2() {
  }
 
 
-int main() {
-	// 指定T 为string类型，Y 为 int类型
-	Person<string, int>p1("cao", 27);
-	cout << p1 << endl;
-
-	Police<Person<string, int>> police;
-	police.check();
-
-	test3();
-
-
-	system("pause");
-	return 0;
-}
+//int main() {
+//	// 指定T 为string类型，Y 为 int类型
+//	Person<string, int>p1("cao", 27);
+//	cout << p1 << endl;
+//
+//	Police<Person<string, int>> police;
+//	police.check();
+//
+//	test3();
+//
+//
+//	system("pause");
+//	return 0;
+//}

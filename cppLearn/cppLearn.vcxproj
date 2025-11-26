@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="函数模板.cpp" />
     <ClCompile Include="类模板.cpp" />
+    <ClCompile Include="类模板与继承.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -24,5 +24,13 @@
     <ClCompile Include="类模板与继承.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="类模板分文件编写.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Person.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

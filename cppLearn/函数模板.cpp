@@ -38,10 +38,10 @@ void printArr(T arr[], int length) {
 	cout << endl;
 }
 
-int main() {
-	int arr[10] = { 8,0,2,3,4,6,7,1,5,9 };
-	sort(arr, sizeof(arr)/sizeof(int));
-	printArr(arr, sizeof(arr) / sizeof(int));
-	system("pause");
-	return 0;
-}
+//int main() {
+//	int arr[10] = { 8,0,2,3,4,6,7,1,5,9 };
+//	sort(arr, sizeof(arr)/sizeof(int));
+//	printArr(arr, sizeof(arr) / sizeof(int));
+//	system("pause");
+//	return 0;
+//}

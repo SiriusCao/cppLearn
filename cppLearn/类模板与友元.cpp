@@ -30,10 +30,10 @@ void print2(People<T1,T2> p) {
 	cout << "name=" << p.name << ",age=" << p.age << endl;
 }
 
-int main() {
-	People<string, int> p("cao", 30);
-	print2(p);
-
-	system("pause");
-	return 0;
-}
+//int main() {
+//	People<string, int> p("cao", 30);
+//	print2(p);
+//
+//	system("pause");
+//	return 0;
+//}

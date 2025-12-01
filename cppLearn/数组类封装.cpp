@@ -25,18 +25,18 @@ ostream& operator<< (ostream & out, Person& p) {
 
 
 
-int main() {
-	Person p1(27, 1998);
-	Person p2(28, 1997);
-	Person p3(29, 1996);
-
-	MyArray<Person> arr(5);
-	arr.push(p1);
-	arr.push(p2);
-	arr.push(p3);
-	cout << arr << endl;
-
-
-
-
-}
+//int main() {
+//	Person p1(27, 1998);
+//	Person p2(28, 1997);
+//	Person p3(29, 1996);
+//
+//	MyArray<Person> arr(5);
+//	arr.push(p1);
+//	arr.push(p2);
+//	arr.push(p3);
+//	cout << arr << endl;
+//
+//
+//
+//
+//}

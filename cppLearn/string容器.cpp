@@ -127,9 +127,9 @@ void test04() {
 	string username=email.substr(0,pos);
 	cout << username << endl;
 }
-int main() {
-	test04();
-
-	system("pause");
-	return 0;
-}
+//int main() {
+//	test04();
+//
+//	system("pause");
+//	return 0;
+//}

@@ -48,6 +48,12 @@
     <ClCompile Include="stack容器.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="queue容器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="list容器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.hpp">

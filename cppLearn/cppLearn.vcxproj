@@ -128,6 +128,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="deque容器.cpp" />
+    <ClCompile Include="list容器.cpp" />
+    <ClCompile Include="queue容器.cpp" />
     <ClCompile Include="stack容器.cpp" />
     <ClCompile Include="string容器.cpp" />
     <ClCompile Include="vector容器.cpp" />

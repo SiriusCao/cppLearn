@@ -130,10 +130,10 @@ void ltest01() {
 
 }
 
-int main() {
-
-	ltest01();
-
-	system("pause");
-	return 0;
-}
+//int main() {
+//
+//	ltest01();
+//
+//	system("pause");
+//	return 0;
+//}

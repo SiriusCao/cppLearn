@@ -79,8 +79,8 @@ void dtest01() {
 	printDeque(d4);
 }
 
-int main() {
-	dtest01();
-	system("pause");
-	return 0;
-}
+//int main() {
+//	dtest01();
+//	system("pause");
+//	return 0;
+//}

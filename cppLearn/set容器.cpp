@@ -13,11 +13,45 @@ public:
 	}
 };
 
+class Student {
+public:
+	string name;
+	int age;
+	Student(string s, int n) :name(s), age(n) {}
+};
+ostream& operator<<(ostream& out, Student s) {
+	out << "name:" << s.name << ",age:" << s.age << endl;
+	return out;
+}
+class StuCompare {
+public:
+	bool operator()(const Student& s1, const Student& s2) const {
+		return s1.age < s2.age;
+	}
+};
+
+void printSetStu(const set<Student,StuCompare> s) {
+	for (set<Student, StuCompare>::iterator ssit = s.begin(); ssit != s.end() ; ssit++) {
+		cout << *ssit << endl;
+	}
+}
+
+
 void printSet(const set<int, SetCompare>& s) {
 	for (set<int, SetCompare>::iterator it = s.begin(); it != s.end(); it++) {
 		cout << *it << " ";
 	}
 	cout << endl;
+}
+
+void stuTest() {
+	set<Student, StuCompare> sS;
+	sS.insert(Student("cao", 27));
+	sS.insert(Student("zzzz", 33));
+	sS.insert(Student("hao", 17));
+	sS.insert(Student("chen", 18));
+	printSetStu(sS);
+
 }
 void setTest() {
 	set<int, SetCompare> s1;
@@ -46,7 +80,7 @@ void setTest() {
 
 int main() {
 
-	setTest();
+	stuTest();
 	system("pause");
 	return 0;
 }

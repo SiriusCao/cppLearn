@@ -63,6 +63,12 @@
     <ClCompile Include="multimap容器.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="函数对象.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="内建函数对象.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.hpp">

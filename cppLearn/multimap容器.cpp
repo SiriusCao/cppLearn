@@ -20,8 +20,8 @@ void multimapTest() {
 	}
 }
 
-int main() {
-	multimapTest();
-	system("pause");
-	return 0;
-}
+//int main() {
+//	multimapTest();
+//	system("pause");
+//	return 0;
+//}

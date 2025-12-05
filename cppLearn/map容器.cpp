@@ -32,8 +32,8 @@ void mapTest() {
 
 }
 
-int main() {
-	mapTest();
-	system("pause");
-	return 0;
-}
+//int main() {
+//	mapTest();
+//	system("pause");
+//	return 0;
+//}

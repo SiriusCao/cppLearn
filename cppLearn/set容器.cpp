@@ -78,9 +78,9 @@ void setTest() {
 
 }
 
-int main() {
-
-	stuTest();
-	system("pause");
-	return 0;
-}
+//int main() {
+//
+//	stuTest();
+//	system("pause");
+//	return 0;
+//}

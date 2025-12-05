@@ -18,6 +18,13 @@ public:
 
 };
 
+class ListIntCompare {
+public:
+	bool operator()(int num1, int num2) const {
+		return num1 > num2;
+	}
+};
+
 bool personCompare(const People& p1, const People& p2) {
 	if (p1.age == p2.age) {
 		return p1.height > p2.height;
@@ -124,6 +131,15 @@ void ltest01() {
 		cout << *pit << endl;
 	}
 
+	list<int> l123;
+	for (int i = 0; i < 10; i++)
+	{
+		l123.push_back(i);
+	}
+	l123.sort(ListIntCompare());
+	for (auto plc = l123.begin(); plc != l123.end(); plc++) {
+		cout << *plc << " ";
+	}
 
 
 

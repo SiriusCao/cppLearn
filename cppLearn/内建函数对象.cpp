@@ -41,9 +41,9 @@ void inTest() {
 
 }
 
-int main() {
-	inTest();
-
-	system("pause");
-	return 0;
-}
+//int main() {
+//	inTest();
+//
+//	system("pause");
+//	return 0;
+//}

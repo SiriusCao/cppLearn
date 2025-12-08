@@ -12,6 +12,11 @@ void multimapTest() {
 	mm.insert(make_pair(2, "B"));
 	mm.insert(make_pair(2, "bB"));
 	mm.insert(make_pair(3, "c"));
+	mm.insert(make_pair(3, "C"));
+	mm.insert(make_pair(3, "cccc"));
+
+	mm.insert(make_pair(2, "bBBB"));
+
 	
 	multimap<int,string>::iterator posi=mm.find(2);
 	int count=mm.count(2);

@@ -141,10 +141,12 @@
     <ClCompile Include="初识STL.cpp" />
     <ClCompile Include="函数模板.cpp" />
     <ClCompile Include="数组类封装.cpp" />
+    <ClCompile Include="查找算法.cpp" />
     <ClCompile Include="类模板.cpp" />
     <ClCompile Include="类模板与友元.cpp" />
     <ClCompile Include="类模板与继承.cpp" />
     <ClCompile Include="类模板分文件编写.cpp" />
+    <ClCompile Include="遍历算法.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyArray.hpp" />

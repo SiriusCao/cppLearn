@@ -16,6 +16,10 @@ public:
 
 class VecCompare {
 public:
+	VecCompare() {
+		cout << "仿函数构造函数" << endl;
+	}
+
 	bool operator()(int num1, int num2){
 		return num1 > num2;
 	}
@@ -47,6 +51,7 @@ void func() {
 		cout << *posi << " ";
 	}
 	cout << endl;
+	VecCompare vecp;
 
 	list<int> lit;
 	lit.push_back(2);
@@ -54,7 +59,7 @@ void func() {
 	lit.push_back(3);
 	lit.push_back(9);
 	lit.push_back(5);
-	lit.sort(VecCompare());
+	lit.sort(vecp);
 	for (list<int>::iterator posi = lit.begin(); posi != lit.end(); posi++) {
 		cout << *posi << " ";
 	}

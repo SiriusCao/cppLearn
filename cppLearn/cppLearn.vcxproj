@@ -140,12 +140,15 @@
     <ClCompile Include="函数对象.cpp" />
     <ClCompile Include="初识STL.cpp" />
     <ClCompile Include="函数模板.cpp" />
+    <ClCompile Include="拷贝和替换算法.cpp" />
+    <ClCompile Include="排序算法.cpp" />
     <ClCompile Include="数组类封装.cpp" />
     <ClCompile Include="查找算法.cpp" />
     <ClCompile Include="类模板.cpp" />
     <ClCompile Include="类模板与友元.cpp" />
     <ClCompile Include="类模板与继承.cpp" />
     <ClCompile Include="类模板分文件编写.cpp" />
+    <ClCompile Include="统计元素个数.cpp" />
     <ClCompile Include="遍历算法.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -96,9 +96,9 @@ void findTest() {
 
 }
 
-int main() {
-	findTest();
-
-	system("pause");
-	return 0;
-}
+//int main() {
+//	findTest();
+//
+//	system("pause");
+//	return 0;
+//}

@@ -144,6 +144,7 @@
     <ClCompile Include="排序算法.cpp" />
     <ClCompile Include="数组类封装.cpp" />
     <ClCompile Include="查找算法.cpp" />
+    <ClCompile Include="算术生成算法.cpp" />
     <ClCompile Include="类模板.cpp" />
     <ClCompile Include="类模板与友元.cpp" />
     <ClCompile Include="类模板与继承.cpp" />

@@ -68,8 +68,8 @@ void copyAndTihuan(){
 
 }
 
-int main() {
-	copyAndTihuan();
-	system("pause");
-	return 0;
-}
+//int main() {
+//	copyAndTihuan();
+//	system("pause");
+//	return 0;
+//}

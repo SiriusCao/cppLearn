@@ -87,6 +87,9 @@
     <ClCompile Include="算术生成算法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="集合算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.hpp">

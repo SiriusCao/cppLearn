@@ -151,6 +151,7 @@
     <ClCompile Include="类模板分文件编写.cpp" />
     <ClCompile Include="统计元素个数.cpp" />
     <ClCompile Include="遍历算法.cpp" />
+    <ClCompile Include="集合算法.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyArray.hpp" />

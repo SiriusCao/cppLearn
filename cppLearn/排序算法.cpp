@@ -23,11 +23,14 @@ public:
 		return this->age == p.age;
 	}*/
 
-	bool operator<(const People& p) {
-		return this->age < p.age;
-
-	}
+	//bool operator<(const People& p) {
+	//	return this->age < p.age;
+	//}
 };
+
+bool operator<(const People& p1, const People& p2) {
+	return p1.age < p2.age;
+}
 
 class SortCompare {
 public:
@@ -77,10 +80,10 @@ void sortTest() {
 	std::for_each(vpe3.begin(), vpe3.end(), SortPrint());
 
 
-	std::cout << "--------------" << std::endl;
+	//std::cout << "--------------" << std::endl;
 
-	std::reverse(vpe3.begin(), vpe3.end());
-	std::for_each(vpe3.begin(), vpe3.end(), SortPrint());
+	//std::reverse(vpe3.begin(), vpe3.end());
+	//std::for_each(vpe3.begin(), vpe3.end(), SortPrint());
 }
 
 //int main() {

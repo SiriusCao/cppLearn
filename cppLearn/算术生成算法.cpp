@@ -40,22 +40,24 @@ void SStest() {
 	vpe.push_back(People("chen", 28));
 	vpe.push_back(People("zhang", 97));
 	vpe.push_back(People("li", 44));
-	//int a = vpe[0] + vpe[1];
+	int a = vpe[0] + vpe[1];
+	std::cout << a << std::endl;
+
 	int sum = std::accumulate(vpe.begin(), vpe.end(), 0);
 	std::cout << sum << std::endl;
 
-	std::vector<People>::iterator vpe_begin = vpe.begin();
-	std::vector<People>::iterator vpe_end = vpe.end();
-	vpe_begin++;
-	vpe_end--;
-	std::fill(vpe_begin, vpe_end, People("fffff", 6666));
-	std::for_each(vpe.begin(), vpe.end(), SSPrint());
+	//std::vector<People>::iterator vpe_begin = vpe.begin();
+	//std::vector<People>::iterator vpe_end = vpe.end();
+	//vpe_begin++;
+	//vpe_end--;
+	//std::fill(vpe_begin, vpe_end, People("fffff", 6666));
+	//std::for_each(vpe.begin(), vpe.end(), SSPrint());
 
 }
 
-int main() {
-	SStest();
-
-	system("pause");
-	return 0;
-}
+//int main() {
+//	SStest();
+//
+//	system("pause");
+//	return 0;
+//}

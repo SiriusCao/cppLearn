@@ -90,6 +90,12 @@
     <ClCompile Include="集合算法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="智能指针.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lambda表达式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.hpp">

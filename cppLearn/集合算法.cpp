@@ -97,9 +97,9 @@ void JiheTest() {
 	std::for_each(v5.begin(), v5end, JihePrint());
 }
 
-int main() {
-	JiheTest();
-
-	system("pause");
-	return 0;
-}
+//int main() {
+//	JiheTest();
+//
+//	system("pause");
+//	return 0;
+//}

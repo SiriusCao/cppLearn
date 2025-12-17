@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="deque容器.cpp" />
+    <ClCompile Include="lambda表达式.cpp" />
     <ClCompile Include="list容器.cpp" />
     <ClCompile Include="map容器.cpp" />
     <ClCompile Include="multimap容器.cpp" />
@@ -143,6 +144,7 @@
     <ClCompile Include="拷贝和替换算法.cpp" />
     <ClCompile Include="排序算法.cpp" />
     <ClCompile Include="数组类封装.cpp" />
+    <ClCompile Include="智能指针.cpp" />
     <ClCompile Include="查找算法.cpp" />
     <ClCompile Include="算术生成算法.cpp" />
     <ClCompile Include="类模板.cpp" />

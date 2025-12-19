@@ -5,7 +5,7 @@
 
 
 
-int main() {
+int lambdaTest() {
 	//直接调用 Lambda
 	auto lam = []() {
 		std::cout << "hello" << std::endl;
